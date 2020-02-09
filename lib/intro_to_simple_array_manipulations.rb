@@ -11,6 +11,7 @@ def using_pop(Array)
 end
 
 def pop_with_args(Array)
- 2.times Array.pop
+ 2.times do
+   Array.pop
 end
  
