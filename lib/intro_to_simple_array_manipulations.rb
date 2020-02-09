@@ -1,18 +1,18 @@
-def using_push(Array,String)
-  Array.push(String)
+def using_push(array,string)
+  array.push(string)
 end
 
-def using_unshift(Array,String)
-  Array.unshift(String)
+def using_unshift(array,string)
+  array.unshift(string)
 end
 
-def using_pop(Array)
-  Array.pop
+def using_pop(array)
+  array.pop
 end
 
-def pop_with_args(Array)
+def pop_with_args(array)
  2.times do
-   Array.pop
+   array.pop
  end
 end
 
@@ -26,4 +26,5 @@ def shift_with_args(Array)
   end
 end
 
-def using_concat
+def using_concat(array1,array2)
+  
