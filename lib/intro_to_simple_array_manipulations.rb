@@ -16,15 +16,20 @@ def pop_with_args(array)
  end
 end
 
-def using_shift(Array) 
-  Array.shift
+def using_shift(array) 
+  array.shift
 end
 
-def shift_with_args(Array)
+def shift_with_args(array)
   2.times do
-    Array.shift
+    array.shift
   end
 end
 
 def using_concat(array1,array2)
+  array1.concat(array2)
+end
+
+def using_insert(array,element)
+  array.insert(element,)
   
